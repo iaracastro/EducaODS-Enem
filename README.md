@@ -30,7 +30,7 @@ Na quarta pasta, haviam os editais, informações sobre o cálculo da nota, a me
 
 Na última pasta, temos os arquivos com as provas e gabaritos em PDF's que não serão utilizado.
 
-A partir daí, começamos extraindo com Pandas os dados em "MICRODADOS_ENEM_2022.csv" que inicialmente continham 3.476.105 linhas e 76 colunas. Pelo fato dos dados serem muito grandes, reduzimos o número para 1.000.000 e utilizamos o método "usecols" para selecionar apenas as colunas que nos interessavam. 
+A partir daí, começamos extraindo com Pandas os dados em "MICRODADOS_ENEM_2022.csv" que inicialmente continham 3.476.105 linhas e 76 colunas. Pelo fato dos dados serem muito grandes, reduzimos o número para 500.000 pela capacidade do Github e utilizamos o método "usecols" para selecionar apenas as colunas que nos interessavam. 
 
 ## Limpeza de Dados:
 
