@@ -1,3 +1,0 @@
-arquivo.txt
-microdados_completo.csv
-questionario.csv
