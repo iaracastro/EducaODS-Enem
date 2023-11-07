@@ -30,10 +30,8 @@ Na quarta pasta, haviam os editais, informações sobre o cálculo da nota, a me
 
 Na última pasta, temos os arquivos com as provas e gabaritos em PDF's que não serão utilizado.
 
-A partir daí, começamos extraindo com Pandas os dados em "MICRODADOS_ENEM_2022.csv" que inicialmente continham 3.476.105 linhas e 76 colunas. Pelo fato dos dados serem muito grandes, reduzimos o número para 500.000 pela capacidade do Github e utilizamos o método "usecols" para selecionar apenas as colunas que nos interessavam. 
 
 ## Limpeza de Dados:
-
 Após uma leitura inicial dos dados, decidimos importar as seguintes colunas:
 
 - 'NU_INSCRICAO'
@@ -66,4 +64,7 @@ Após uma leitura inicial dos dados, decidimos importar as seguintes colunas:
 - 'Q024'
 - 'Q025'
 
-Depois, começamos considerando apenas os alunos que realizaram as provas dos 2 dias.
+A partir daí, começamos extraindo com Pandas os dados em "MICRODADOS_ENEM_2022.csv" que inicialmente continham 3.476.105 linhas e 76 colunas. Pelo fato dos dados serem muito grandes, analisamos o número de alunos que estiveram presentes nos dois dias de prova e que responderam o questionário sobre os hábitos de estudo durante a pandemia, através de um merge nos dois datasets de dados na coluna "NU_INSCRICAO" que é comum a ambos.
+
+![teste](https://github.com/iaracastro/EDUCAODS-ENEM/blob/main/pizza.png?raw=true)
+
