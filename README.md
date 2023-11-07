@@ -66,5 +66,5 @@ Após uma leitura inicial dos dados, decidimos importar as seguintes colunas:
 
 A partir daí, começamos extraindo com Pandas os dados em "MICRODADOS_ENEM_2022.csv" que inicialmente continham 3.476.105 linhas e 76 colunas. Pelo fato dos dados serem muito grandes, analisamos o número de alunos que estiveram presentes nos dois dias de prova e que responderam o questionário sobre os hábitos de estudo durante a pandemia, através de um merge nos dois datasets de dados na coluna "NU_INSCRICAO" que é comum a ambos.
 
-![teste](https://github.com/iaracastro/EDUCAODS-ENEM/blob/main/pizza.png?raw=true)
+![teste](https://github.com/iaracastro/EDUCAODS-ENEM/blob/main/Imagens/pizza.png?raw=true)
 
