@@ -8,8 +8,10 @@ Este repositório é dedicado à análise dos dados do Exame Nacional do Ensino 
 
 ### Ideias da Análise:
 - Desempenho por região e correlação com indicadores socioeconômicos.
-- Diversidade de gênero e áreas de conhecimento.
-- Acessibilidade e desempenho de candidatos com deficiência.
+- Diversidade e áreas de conhecimento com foco em: matemática e redação.
+- Acessibilidade e análise de candidatos menos favorecidos.
+- Avaliar quais métodos de estudo se destacaram para o desempenho dos alunos e quais foram os principais desafios enfrentados.
+- Criação de modelos através de Regressão Linear e Random Forest para avaliar classificadores que impactam na nota dos alunos.
 
 ## Extração de Dados:
 Através da plataforma do INEP: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados e baixamos os Microdados do Enem 2022. Daí, haviam 4 pastas:
