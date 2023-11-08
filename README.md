@@ -40,31 +40,26 @@ Após uma leitura inicial dos dados, decidimos importar as seguintes colunas:
 - 'TP_FAIXA_ETARIA'
 - 'TP_SEXO'
 - 'TP_COR_RACA'
-- 'TP_NACIONALIDADE'
-- 'TP_ST_CONCLUSAO'
-- 'TP_ANO_CONCLUIU'
-- 'TP_ESCOLA'
-- 'TP_ENSINO'
-- 'IN_TREINEIRO',
-- 'CO_MUNICIPIO_ESC'
-- 'TP_PRESENCA_CN'
-- 'TP_PRESENCA_CH'
-- 'TP_PRESENCA_LC'
-- 'TP_PRESENCA_MT'
-- 'NU_NOTA_CN'
-- 'NU_NOTA_CH'
-- 'NU_NOTA_LC'
-- 'NU_NOTA_MT',
-- 'TP_STATUS_REDACAO',
-- 'NU_NOTA_REDACAO'
-- 'Q001'
-- 'Q002'
-- 'Q003'
-- 'Q004'
-- 'Q005'
-- 'Q006'
-- 'Q024'
-- 'Q025'
+- 'TP_ESCOLA' 
+- 'TP_ENSINO' 
+- 'IN_TREINEIRO' (Se o aluno está fazendo o ENEM para treinar)
+- 'CO_MUNICIPIO_ESC' (Código no Município e Estado da Escola)
+- 'TP_PRESENCA_CN' (Presença em Ciências Naturais)
+- 'TP_PRESENCA_CH' (Presença em Ciências Humanas)
+- 'TP_PRESENCA_LC' (Presença em Linguagens e Comunicações)
+- 'TP_PRESENCA_MT' (Presença em Matemática)
+- 'NU_NOTA_CN' (Nota de Ciências Naturais)
+- 'NU_NOTA_CH' (Nota de Ciências Humanas)
+- 'NU_NOTA_LC' (Nota de Linguagens e Comunicações)
+- 'NU_NOTA_MT', (Nota de Matemática)
+- 'TP_STATUS_REDACAO', (Presença na Redação)
+- 'NU_NOTA_REDACAO' (Nota de Redação)
+- 'Q001' (Nível Educacional do Pai)
+- 'Q002' (Nível Edcacional da Mãe)
+- 'Q005' (Número de Habitantes na Residência)
+- 'Q006' (Renda Familiar)
+- 'Q024' (Acesso a Computadores)
+- 'Q025' (Acesso a Internet)
 
 A partir daí, começamos extraindo com Pandas os dados em "MICRODADOS_ENEM_2022.csv" que inicialmente continham 3.476.105 linhas e 76 colunas. Pelo fato dos dados serem muito grandes, analisamos o número de alunos que estiveram presentes nos dois dias de prova e que responderam o questionário sobre os hábitos de estudo durante a pandemia, através de um merge nos dois datasets de dados na coluna "NU_INSCRICAO" que é comum a ambos.
 
